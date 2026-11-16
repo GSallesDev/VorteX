@@ -28,7 +28,8 @@ typedef enum {
     X(CAR_LAYOUT_4, ASSET_TEXTURE, "res/car/layout/4.png", ASSET_GROUP_GAME) \
     X(CAR_LAYOUT_5, ASSET_TEXTURE, "res/car/layout/5.png", ASSET_GROUP_GAME) \
     X(CAR_LAYOUT_6, ASSET_TEXTURE, "res/car/layout/6.png", ASSET_GROUP_GAME) \
-    X(CAR_LAYOUT_7, ASSET_TEXTURE, "res/car/layout/7.png", ASSET_GROUP_GAME)
+    X(CAR_LAYOUT_7, ASSET_TEXTURE, "res/car/layout/7.png", ASSET_GROUP_GAME) \
+    X(ROAD_TESTS, ASSET_TEXTURE, "res/roads/tests.png", ASSET_GROUP_GAME)
 
 
 typedef enum {
