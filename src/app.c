@@ -31,12 +31,7 @@ bool app_should_close(const AppState* app) {
 void app_frame(AppState* app) {
     app->dt = GetFrameTime();
     app->scene->update(app, app->dt);
-
-    BeginDrawing();
-        ClearBackground(RAYWHITE);
-        app->scene->render(app);
-    EndDrawing();
-
+    app->scene->render(app); 
     scene_apply_pending(app);
 }
 

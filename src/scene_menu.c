@@ -30,6 +30,10 @@ static void update(AppState *app, float dt) {
 
 static void render(AppState *app) {
     (void)app;
+
+    BeginDrawing();
+    ClearBackground(RAYWHITE);
+
     DrawText("GAME MOV", 0, 0, 24, BLACK);
 
     if (GuiButton((Rectangle){ 24, 24, 120, 30 }, "#191#TEST")) S.showMessageBox = true;
@@ -42,6 +46,7 @@ static void render(AppState *app) {
         if (btnActive >= 0) S.showMessageBox = false;
     }
 
+    EndDrawing();
 }
 
 static void exit_(AppState *app) {
