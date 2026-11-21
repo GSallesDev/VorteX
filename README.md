@@ -1,7 +1,12 @@
 ![Logo](images/screenshot.png)
 
-# VorteX
+# VorteX v1.0.0
 Racing Game, (Work in progress)
+
+# Features
+ * Dynamic lighting
+ * Physics
+ * Effects
 
 ## Author
 - [@GSallesDev](https://github.com/GSallesDev)
